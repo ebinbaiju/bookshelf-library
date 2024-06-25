@@ -1,0 +1,26 @@
+/* src/components/Button.css */
+.custom-button {
+    background: linear-gradient(90deg, #007BFF 0%, #00C6FF 100%);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-button:hover {
+    background: linear-gradient(90deg, #0056b3 0%, #0095cc 100%);
+    transform: scale(1.05);
+  }
+  
+  .custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  

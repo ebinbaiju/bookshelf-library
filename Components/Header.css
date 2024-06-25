@@ -1,0 +1,42 @@
+/* src/components/Header.css */
+.header {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo-link,
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.logo-link:hover,
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item + .nav-item {
+  margin-left: 1rem;
+}

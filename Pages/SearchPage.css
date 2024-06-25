@@ -1,0 +1,31 @@
+/* src/pages/SearchPage.css */
+.search-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .goto-bookshelf-btn {
+    background: linear-gradient(90deg, #007BFF 0%, #00C6FF 100%);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .goto-bookshelf-btn:hover {
+    background: linear-gradient(90deg, #0056b3 0%, #0095cc 100%);
+    transform: scale(1.05);
+  }
+  
